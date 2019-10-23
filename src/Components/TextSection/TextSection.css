@@ -1,0 +1,24 @@
+.textContainer{
+   position:relative;
+   margin:0;
+   color:var(--icons);
+   padding:20px 20px 0 20px;
+}
+.textContainer h1{
+   margin:0;
+   font-size:2.5em;
+   font-weight:550;
+}
+.textContainer p{
+   margin-top:10px;
+}
+.textContainer::before{
+   content:'';
+   width:100%;
+   height:20%;
+   position:absolute;
+   bottom:-20%;
+   left:0;
+   background:var(--blue);
+   border-radius:0 0% 100% 0%;
+}

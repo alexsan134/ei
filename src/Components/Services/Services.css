@@ -1,0 +1,24 @@
+#servicesContainer h1{
+   text-align:right;
+   margin-top:25px;
+   color:var(--blue);
+}
+#servicesContainer{
+   padding:20px;
+}
+#servicesContainer ul{
+   display:grid;
+   grid-template-columns:1fr;
+   grid-template-rows:1fr 1fr 1fr 1fr;
+}
+#servicesContainer ul li{
+   display:grid;
+   grid-template-columns:auto auto;
+   grid-template-rows:1fr;
+   position:relative;
+}
+#servicesContainer ul li span{
+   padding:10px;
+   background:red;
+   position:relative;
+}

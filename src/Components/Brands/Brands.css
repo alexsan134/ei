@@ -1,0 +1,23 @@
+.brandsBand ul{
+   position:relative;
+   display:flex;
+   background:var(--icons);
+   height:22px;
+   align-items:center;
+   justify-content:space-between;
+   padding:0 5px 0 5px;
+   margin:0;
+}
+.brandsBand ul li{
+   margin:0;
+   height:100%
+}
+.brandsBand ul li img{
+   margin:0;
+   height:7.5px;
+}
+.brandsBand {
+   position:relative;
+   margin-top:-13px!important;
+   margin:0;
+}

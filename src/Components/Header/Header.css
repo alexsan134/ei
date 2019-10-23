@@ -1,0 +1,82 @@
+
+.carousel .carousel-item img{
+   width:100%;
+}
+.carousel .carousel-item::before{
+   content:'image-shadow';
+   width:100%;
+   height:150%;
+   position:absolute;
+   top:0;
+   left:0;
+   background:rgba(0,0,0,.4);
+   z-index:2;
+}
+.carousel .carousel-item p{
+   position:absolute;
+   top:-20px;
+   left:0;
+   background:var(--icons);
+   color:var(--blue);
+   padding:15px;
+   font-size:1.2em;
+   font-weight:550;
+   display:block;
+   margin:20px 0;
+   border-radius:0 0 15px 0;
+   box-shadow:0 0 10px rgba(0,0,0,.5);
+   z-index:3;
+}
+.carousel{
+   height:210px!important;
+}
+.carousel .carousel-item{
+   width:100%;
+}
+#band{
+  position:relative;
+  margin-top:-10px;
+  background:url('./tipic.jpg');
+  width:100%;
+  background-size:20%;
+  height:10px;
+  box-shadow:0 0 10px rgba(0,0,0,1);
+  z-index:2;
+}
+#mainHeaderText{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  right:0;
+  z-index:2;
+  display:block;
+  width:75%;
+  padding:15px;
+  text-align:right;
+  text-shadow:0 0 10px rgba(0,0,0,.9);
+  user-select: none;
+}
+#mainHeaderText h1{
+  font-size:1.5em;
+  color:var(--icons);
+  font-weight:550;
+  margin:0;
+}
+#mainHeaderText p{
+  color:var(--alter);
+  font-size:1em;
+  line-height:15px;
+  font-weight:400;
+  margin:0;
+}
+#headerContent{
+  position:relative;
+  top:10px;
+}
+#brandsText{
+   position:relative;
+   left:7px;
+   font-size:0.8em;
+   top:-27px;
+   color:var(--icons);
+}
