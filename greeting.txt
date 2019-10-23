@@ -1,0 +1,5 @@
+function fish_greeting
+        set_color yellow
+figlet -f slant "   AlexOS"
+set_color normal
+end

@@ -1,0 +1,4 @@
+function fish_prompt
+        set_color normal
+   echo 'Alex⚡Term'(set_color yellow) (prompt_pwd)(set_color normal) ' $ '
+end
