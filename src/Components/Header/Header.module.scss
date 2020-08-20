@@ -1,0 +1,138 @@
+.head {
+	position: relative;
+	margin-top: 70px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	max-height: 500px;
+	background: var(--black);
+	padding: var(--margins);
+	display: flex;
+	justify-content: center;
+
+	.container {
+		width: 100%;
+		max-width: var(--maxWidth);
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+
+		.info {
+			position: relative;
+			display: flex;
+			justify-content: flex-end;
+
+			.ad {
+				position: absolute;
+				bottom: -30%;
+				right: 5%;
+				background: var(--white);
+				color: var(--black);
+				z-index: 3;
+				padding: 10px 20px;
+				border-radius: 0.6em;
+				text-align: right;
+				font-size: 0.8em;
+				width: 270px;
+				box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.25);
+
+				p {
+					margin-top: 0px;
+					padding-left: 45px;
+					line-height: 1.45;
+					font-weight: 400;
+				}
+			}
+
+			.adImage {
+				position: relative;
+				top: 20px;
+				width: 270px;
+				overflow: hidden;
+				border-radius: 0.6em;
+				height: 245px;
+
+				img {
+					width: 100%;
+					object-fit: cover;
+					height: 100%;
+				}
+			}
+
+			.infoContainer {
+				background: var(--lightGreen);
+				padding: 25px 30px;
+				width: 320px;
+				border-radius: 0.6em;
+				height: 210px;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+				margin-right: -40px;
+				box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+				z-index: 2;
+
+				h2 {
+					font-size: 1.7em;
+				}
+
+				p {
+					padding-right: 30px;
+					font-size: 1em;
+					line-height: 1.45;
+					font-weight: 500;
+				}
+
+				a {
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					background: var(--white);
+					color: var(--black);
+					font-weight: 500;
+
+					svg {
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+
+		.content {
+			position: relative;
+			top: 50px;
+			width: 450px;
+
+			h1 {
+				font-size: 2.5em;
+			}
+
+			p {
+				margin-top: 10px;
+				width: 100%;
+				font-size: 1.2em;
+				line-height: 1.45;
+			}
+
+			a {
+				text-transform: uppercase;
+				display: inline-flex;
+				align-items: center;
+				margin-top: 15px;
+				color: var(--white);
+				font-weight: 500;
+				font-size: 1em;
+
+				svg {
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.ad2 {
+			position: absolute;
+			display: none;
+		}
+	}
+}

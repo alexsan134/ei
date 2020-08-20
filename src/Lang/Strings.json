@@ -1,3 +1,21 @@
 {
-	"es":{}
+	"es": {
+		"navbar": {
+			"opened": "Abierto ahora",
+			"closed": "Cerrado ahora"
+		},
+		"header": {
+			"linkTitle": "MAS INFORMACIÓN",
+			"info_1": "¿Cómo llegar?",
+			"info_2": "Encuentra indicaciones en Google Maps, estamos ubicados en la zona 1 de la Ciudad Capital.",
+			"info_btn": "VER MAPA",
+			"h1": "Escríbenos o Visítanos",
+			"p": "Para tu comodidad, escribenos en línea o visítanos en nuestro centro de servicio, el costo del diagnóstico es ¡GRATIS!, Si tienes un televisor, visítanos, con gusto repararemos tu televisor, de cualquier marca.",
+			"btn": "Mas información",
+			"ad": "Conoce nuestro laboratorio",
+			"adspan": "Tu mejor opción esta de lado de todos nuestros mejores técnicos.",
+			"title": "Resolvemos tus dudas en linea",
+			"text": "Envíanos un mensaje a nuestro asistente en Messenger o Whatsapp, te respondemos 24/7."
+		}
+	}
 }
