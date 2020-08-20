@@ -1,22 +1,44 @@
 .head {
 	position: relative;
-	margin-top: 70px;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	max-height: 500px;
-	background: var(--black);
+	max-height: 550px;
 	padding: var(--margins);
+	padding-top: calc(var(--margins) + 60px);
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.7);
+
+	.videoBackground {
+		position: absolute;
+		top: -70px;
+		left: 0;
+		min-width: 100%;
+		z-index: -1;
+	}
 
 	.container {
+		position: relative;
 		width: 100%;
 		max-width: var(--maxWidth);
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
+
+		.ad2 {
+			position: absolute;
+			left: -35px;
+			bottom: -5%;
+			z-index: 3;
+			padding: 20px 25px;
+			font-size: 0.9em;
+			width: 350px;
+			background: var(--blue);
+			border-radius: 0.6em;
+		}
 
 		.info {
 			position: relative;
@@ -128,11 +150,6 @@
 					margin-right: 10px;
 				}
 			}
-		}
-
-		.ad2 {
-			position: absolute;
-			display: none;
 		}
 	}
 }

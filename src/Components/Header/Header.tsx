@@ -19,6 +19,10 @@ const Header: React.FC = () => {
 
 	return (
 		<div className={Styles.head}>
+			<video autoPlay muted loop className={Styles.videoBackground}>
+				<source src='/assets/background.mp4' />
+			</video>
+
 			<div className={Styles.container}>
 				<div className={Styles.content}>
 					<h1>{lang.header.h1}</h1>
