@@ -1,0 +1,30 @@
+.container {
+	width: 100%;
+
+	ul {
+		margin: 20px 0;
+		display: grid;
+		list-style: none;
+		justify-items: center;
+		align-items: center;
+		grid-template-columns: repeat(4, 1fr);
+
+		li {
+			img {
+				filter: grayscale(100%);
+				transition: filter 0.3s ease-in-out;
+				cursor: pointer;
+			}
+
+			img:hover {
+				filter: none;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.container > ul {
+		grid-template-columns: repeat(8, 1fr);
+	}
+}

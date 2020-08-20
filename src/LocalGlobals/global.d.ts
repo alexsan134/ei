@@ -20,4 +20,9 @@ interface ILangPackage {
 		title: string
 		text: string
 	}
+	about: {
+		title: string
+		text: string
+		span: string
+	}
 }

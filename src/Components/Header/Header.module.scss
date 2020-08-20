@@ -37,6 +37,7 @@
 			font-size: 0.9em;
 			width: 350px;
 			background: var(--blue);
+			color: var(--white);
 			border-radius: 0.6em;
 		}
 
@@ -50,7 +51,7 @@
 				bottom: -30%;
 				right: 5%;
 				background: var(--white);
-				color: var(--black);
+				color: var(--text);
 				z-index: 3;
 				padding: 10px 20px;
 				border-radius: 0.6em;
@@ -97,6 +98,7 @@
 
 				h2 {
 					font-size: 1.7em;
+					color: var(--white);
 				}
 
 				p {
@@ -104,6 +106,7 @@
 					font-size: 1em;
 					line-height: 1.45;
 					font-weight: 500;
+					color: var(--white);
 				}
 
 				a {
@@ -111,10 +114,11 @@
 					align-items: center;
 					justify-content: center;
 					background: var(--white);
-					color: var(--black);
+					color: var(--text);
 					font-weight: 500;
 
 					svg {
+						color: var(--text);
 						margin-right: 10px;
 					}
 				}
@@ -128,12 +132,14 @@
 
 			h1 {
 				font-size: 2.5em;
+				color: var(--white);
 			}
 
 			p {
 				margin-top: 10px;
 				width: 100%;
 				font-size: 1.2em;
+				color: var(--white);
 				line-height: 1.45;
 			}
 
