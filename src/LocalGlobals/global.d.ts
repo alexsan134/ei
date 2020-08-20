@@ -25,4 +25,8 @@ interface ILangPackage {
 		text: string
 		span: string
 	}
+	services: {
+		title: string
+		text: string
+	}
 }

@@ -7,6 +7,7 @@ import Styles from './Divider.module.scss'
 // PROPIEDADES
 interface IDividerProps {
 	top?: boolean
+	reverse?: boolean
 	color: string
 	className?: string
 }
@@ -18,7 +19,7 @@ const Divider: React.FC<IDividerProps> = (props: IDividerProps) => {
 			style={{
 				top: props.top ? '-84px' : undefined,
 				bottom: !props.top ? '-84px' : undefined,
-				transform: props.top ? 'rotate(180deg)' : undefined,
+				transform: props.top ? `rotate(180deg)${props.reverse ? ' scaleX(-1)' : ''}` : undefined,
 			}}>
 			<svg
 				style={{ fill: props.color }}
