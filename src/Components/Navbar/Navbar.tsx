@@ -43,15 +43,17 @@ const Navbar: React.FC = () => {
 		// AGREGAR EVENTO
 		window.addEventListener('scroll', setBackground)
 
+		// LIMPIAR INTERVALO
+		return () => window.removeEventListener('scroll', setBackground)
+	}, [])
+
+	useEffect(() => {
 		// INTERVALO
-		const clock = setInterval(() => setTime(open), 1000)
+		const clock = setTimeout(() => setTime(open), 1000)
 
 		// LIMPIAR INTERVALO
-		return () => {
-			window.removeEventListener('scroll', setBackground)
-			clearInterval(clock)
-		}
-	}, [])
+		return () => clearTimeout(clock)
+	}, [open])
 
 	return (
 		<nav className={Styles.nav} ref={navRef}>

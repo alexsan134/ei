@@ -33,12 +33,24 @@
 			left: -35px;
 			bottom: -5%;
 			z-index: 3;
-			padding: 20px 25px;
-			font-size: 0.9em;
-			width: 350px;
+			padding: 10px 20px;
+			width: 400px;
 			background: var(--blue);
-			color: var(--white);
 			border-radius: 0.6em;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			svg {
+				margin-right: 10px;
+				width: 80px;
+				height: 80px;
+			}
+
+			div {
+				font-size: 0.9em;
+				color: var(--white);
+			}
 		}
 
 		.info {
@@ -57,8 +69,17 @@
 				border-radius: 0.6em;
 				text-align: right;
 				font-size: 0.8em;
-				width: 270px;
+				width: 315px;
 				box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.25);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				svg {
+					width: 50px;
+					height: 50px;
+					margin-left: 15px;
+				}
 
 				p {
 					margin-top: 0px;

@@ -8,7 +8,7 @@ import Styles from './Header.module.scss'
 import MainContext from 'Context/MainContext'
 
 // ICONOS
-import { Info, Map } from 'react-feather'
+import { Info, Map, HelpCircle, Tool } from 'react-feather'
 
 // ASSETS
 import Store from 'Assets/store.jpg'
@@ -58,14 +58,20 @@ const Header: React.FC = () => {
 					</div>
 
 					<div className={Styles.ad}>
-						<h2>{lang.header.ad}</h2>
-						<p>{lang.header.adspan}</p>
+						<div>
+							<h2>{lang.header.ad}</h2>
+							<p>{lang.header.adspan}</p>
+						</div>
+						<Tool />
 					</div>
 				</div>
 
 				<div className={Styles.ad2}>
-					<h2>{lang.header.title}</h2>
-					<p>{lang.header.text}</p>
+					<HelpCircle />
+					<div>
+						<h2>{lang.header.title}</h2>
+						<p>{lang.header.text}</p>
+					</div>
 				</div>
 			</div>
 		</div>
