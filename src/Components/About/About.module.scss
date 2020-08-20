@@ -5,6 +5,9 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 50px var(--margins);
+	padding-bottom: 120px;
+	background: var(--white);
+	z-index: 1;
 
 	.text {
 		width: 100%;

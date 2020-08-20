@@ -24,7 +24,25 @@
 		},
 		"services": {
 			"title": "Nuestros servicios",
-			"text": "Contamos con una tienda Outlet especializada en venta de repuestos, módulos y accesorios para televisores, venta de tecnología y otros productos de segunda mano, Un centro de servicio en reparación, venta de repuestos, placas y accesorios para televisores modernos y reparación de herramientas eléctricas. Reparación de televisores modernos LED, OLED, 3D, 4K, Smart, Plasma, LCD, etc. Todas las marcas y modelos en el mercado nacional."
+			"text": "Contamos con una tienda Outlet especializada en venta de repuestos, módulos y accesorios para televisores, venta de tecnología y otros productos de segunda mano, Un centro de servicio en reparación, venta de repuestos, placas y accesorios para televisores modernos y reparación de herramientas eléctricas. Reparación de televisores modernos LED, OLED, 3D, 4K, Smart, Plasma, LCD, etc. Todas las marcas y modelos en el mercado nacional.",
+			"list": [
+				{
+					"title": "Venta de repuestos",
+					"text": "Ponemos a tu disposición nuestro stock de diferentes tipos de módulos, piezas, tarjetas y repuestos para televisor, y PC."
+				},
+				{
+					"title": "Herramientas Eléctricas",
+					"text": "Compresores, Sierra Eléctrica, Barrenos (En general), Pulidoras, Taladros, Aspiradoras, Caladoras, Podadoras, Etc."
+				},
+				{
+					"title": "Compra de televisores",
+					"text": "Compramos tu televisor dañado o en mal estado. Escríbenos enviando fotografías, marca, modelo y daño del televisor."
+				},
+				{
+					"title": "Reparación de computadoras",
+					"text": "Reparamos PC, Laptops, Notebooks de cualquier tipo y marca, así como servicios de mantenimiento."
+				}
+			]
 		}
 	}
 }

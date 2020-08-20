@@ -28,5 +28,9 @@ interface ILangPackage {
 	services: {
 		title: string
 		text: string
+		list: {
+			title: string
+			text: string
+		}[]
 	}
 }
