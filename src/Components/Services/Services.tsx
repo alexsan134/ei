@@ -15,6 +15,7 @@ import { Grid } from 'react-feather'
 
 // COMPONENTES
 import Categories from 'Components/Categories/Categories'
+import Green from 'Components/Green/Green'
 
 const Services: React.FC = () => {
 	// CONTEXTO
@@ -22,9 +23,11 @@ const Services: React.FC = () => {
 
 	return (
 		<section className={Styles.container}>
-			<Divider top reverse color='#333' />
+			<Divider top color='#333' />
 
 			<div className={Styles.content}>
+				<Green className={Styles.green} />
+
 				<h1>
 					{lang.services.title} <Grid />
 				</h1>

@@ -5,6 +5,7 @@ import React from 'react'
 import Header from 'Components/Header/Header'
 import About from 'Components/About/About'
 import Services from 'Components/Services/Services'
+import Gallery from 'Components/Gallery/Gallery'
 
 const Index: React.FC = () => {
 	return (
@@ -12,6 +13,7 @@ const Index: React.FC = () => {
 			<Header />
 			<About />
 			<Services />
+			<Gallery />
 		</>
 	)
 }

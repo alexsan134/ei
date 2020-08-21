@@ -60,19 +60,23 @@ ol {
 
 /* BOTONES */
 .outline {
-	display: inline-block;
+	display: inline-flex;
 	background: transparent;
 	border: 2px solid var(--white);
 	text-decoration: none;
 	padding: 0.7em 2em;
 	border-radius: 0.5em;
+	align-items: center;
+	justify-content: center;
 }
 
 .btn {
-	display: inline-block;
+	display: inline-flex;
 	text-decoration: none;
 	padding: 0.7em 2em;
 	border-radius: 0.5em;
+	justify-content: center;
+	align-items: center;
 }
 
 /* WAVES */

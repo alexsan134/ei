@@ -33,4 +33,9 @@ interface ILangPackage {
 			text: string
 		}[]
 	}
+	green: {
+		title: string
+		text: string
+		btn: string
+	}
 }

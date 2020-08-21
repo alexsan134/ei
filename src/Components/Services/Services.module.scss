@@ -5,11 +5,20 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 50px var(--margins);
+	padding-bottom: 150px;
 
 	.content {
+		position: relative;
 		width: 100%;
 		max-width: var(--maxWidth);
 		color: var(--white);
+
+		.green {
+			position: absolute;
+			top: -41%;
+			z-index: 2;
+			right: -40px;
+		}
 
 		h1 {
 			font-size: 2.3em;
