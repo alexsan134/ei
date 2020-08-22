@@ -13,12 +13,17 @@ const Categories: React.FC = () => {
 	const { lang } = useContext(MainContext)
 
 	// ICONOS
-	const icons = [<ShoppingCart />, <Zap />, <Tv />, <Monitor />]
+	const icons = [<ShoppingCart key={0} />, <Zap key={1} />, <Tv key={2} />, <Monitor key={3} />]
+
+	// ALERT
+	const showNumber = (title: string) => () => {
+		window.Alert(title)
+	}
 
 	return (
 		<ul className={Styles.list}>
 			{lang.services.list.map((cat, key: number) => (
-				<li key={key}>
+				<li key={key} onClick={showNumber(cat.title)}>
 					<div className={Styles.item}>
 						<div className={Styles.iconContainer}>{icons[key]}</div>
 						<div>

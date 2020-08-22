@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
 	useEffect(() => {
 		// ANIMAR NAVBAR
 		const setBackground = () => {
-			if (window.scrollY > 80 && navRef.current) navRef.current.style.background = 'var(--black)'
+			if (window.scrollY > 80 && navRef.current) navRef.current.style.background = '#222'
 			else if (navRef.current) navRef.current.style.background = 'transparent'
 		}
 

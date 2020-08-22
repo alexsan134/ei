@@ -16,6 +16,9 @@ import Index from 'Pages/Index/Index'
 // COMPONENTES
 import Navbar from 'Components/Navbar/Navbar'
 
+// HOC
+import { withAlerts } from 'HOCS/Alerts'
+
 // ESTADO
 interface AppState {
 	langCode: string
@@ -41,4 +44,4 @@ const App: React.FC = () => {
 	)
 }
 
-export default App
+export default withAlerts(App, { confirmText: 'Aceptar', cancelText: 'Cancelar' })
