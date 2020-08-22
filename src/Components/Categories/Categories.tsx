@@ -6,7 +6,10 @@ import Styles from './Categories.module.scss'
 
 // CONTEXT
 import MainContext from 'Context/MainContext'
+
+// ICONOS
 import { ShoppingCart, Zap, Tv, Monitor } from 'react-feather'
+import WhatsappIcon from 'Assets/whatsapp.svg'
 
 const Categories: React.FC = () => {
 	// CONTEXTO
@@ -17,7 +20,17 @@ const Categories: React.FC = () => {
 
 	// ALERT
 	const showNumber = (title: string) => () => {
-		window.Alert(title)
+		window.Alert({
+			title,
+			body:
+				'Si te gustaria realizar una consulta, envianos los datos del equipo a nuestro WhatsApp:',
+			confirmBtn: (
+				<button className={Styles.whaBtn}>
+					<img src={WhatsappIcon} alt='whaIcon' /> Enviar mensaje
+				</button>
+			),
+			type: 'confirm',
+		})
 	}
 
 	return (

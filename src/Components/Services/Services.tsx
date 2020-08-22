@@ -23,7 +23,7 @@ const Services: React.FC = () => {
 
 	return (
 		<section className={Styles.container}>
-			<Divider top color='#333' />
+			<Divider top color='#eee' />
 
 			<div className={Styles.content}>
 				<Green className={Styles.green} />

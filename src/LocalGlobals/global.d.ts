@@ -38,4 +38,7 @@ interface ILangPackage {
 		text: string
 		btn: string
 	}
+	gallery: {
+		title: string
+	}
 }
