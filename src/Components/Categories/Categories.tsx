@@ -23,7 +23,7 @@ const Categories: React.FC = () => {
 		window.Alert({
 			title,
 			body:
-				'Si te gustaria realizar una consulta, envianos los datos del equipo a nuestro WhatsApp:',
+				'Si te gustaría realizar una consulta, envianos los datos del equipo a nuestro WhatsApp:',
 			confirmBtn: (
 				<button className={Styles.whaBtn}>
 					<img src={WhatsappIcon} alt='whaIcon' /> Enviar mensaje
