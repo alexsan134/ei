@@ -1,0 +1,164 @@
+@font-face {
+	src: url('./Fonts/Roboto-Light.ttf');
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+@font-face {
+	src: url('./Fonts/Roboto-Medium.ttf');
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('./Fonts/Roboto-Bold.ttf');
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	user-select: none;
+	outline: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: transparent;
+	font-family: 'Roboto', Roboto;
+}
+
+*:focus {
+	outline: none;
+}
+
+@mixin tab-focus() {
+	outline: none;
+}
+
+body {
+	--blue: #2196f3;
+	--lightGreen: #009688;
+	--green: #4caf50;
+	--red: #ff5252;
+	--black: #000;
+	--text: #333;
+	--white: #fff;
+	--margins: 30px;
+	--maxWidth: 1200px;
+	font-size: 15px;
+	overflow-x: hidden;
+	font-family: 'Roboto', Roboto;
+	background: var(--white);
+}
+
+/* LISTAS */
+
+ul,
+ol {
+	list-style: none;
+}
+
+/* BOTONES */
+.outline {
+	display: inline-flex;
+	background: transparent;
+	border: 2px solid var(--white);
+	text-decoration: none;
+	padding: 0.7em 2em;
+	border-radius: 0.5em;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+}
+
+.btn {
+	display: inline-flex;
+	text-decoration: none;
+	padding: 0.7em 2em;
+	border-radius: 0.5em;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+}
+
+/* WAVES */
+.editorial {
+	display: block;
+	width: 100%;
+	height: 60px;
+	max-height: 60px;
+	margin: 0;
+	position: absolute;
+	left: 0px;
+	bottom: 0;
+	z-index: 5;
+}
+
+.parallax1 > use {
+	animation: move-forever1 10s linear infinite;
+	&:nth-child(1) {
+		animation-delay: -2s;
+	}
+}
+.parallax2 > use {
+	animation: move-forever2 8s linear infinite;
+	&:nth-child(1) {
+		animation-delay: -2s;
+	}
+}
+.parallax3 > use {
+	animation: move-forever3 6s linear infinite;
+	&:nth-child(1) {
+		animation-delay: -2s;
+	}
+}
+.parallax4 > use {
+	animation: move-forever4 4s linear infinite;
+	&:nth-child(1) {
+		animation-delay: -2s;
+	}
+}
+@keyframes move-forever1 {
+	0% {
+		transform: translate(85px, 0%);
+	}
+	100% {
+		transform: translate(-90px, 0%);
+	}
+}
+@keyframes move-forever2 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+@keyframes move-forever3 {
+	0% {
+		transform: translate(85px, 0%);
+	}
+	100% {
+		transform: translate(-90px, 0%);
+	}
+}
+@keyframes move-forever4 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+
+/* LINK */
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 14px;
+	}
+}

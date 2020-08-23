@@ -6,7 +6,7 @@ import { render } from 'react-dom'
 import App from 'Components/App/App'
 
 // ESTILOS
-import './index.css'
+import './index.scss'
 
 // SERVICE WORKER
 import * as sw from './serviceWorker'
