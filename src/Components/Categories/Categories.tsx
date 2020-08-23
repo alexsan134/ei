@@ -29,6 +29,10 @@ const Categories: React.FC = () => {
 					<img src={WhatsappIcon} alt='whaIcon' /> Enviar mensaje
 				</button>
 			),
+			onConfirm: () => {
+				if (title !== lang.services.list[1].title) window.open('https://wa.me/50257378088')
+				else window.open('https://wa.me/50240898638')
+			},
 			type: 'confirm',
 		})
 	}

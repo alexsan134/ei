@@ -28,7 +28,18 @@
 			"btn": "Conoce más aquí"
 		},
 		"gallery": {
-			"title": "Galeria"
+			"title": "Galería",
+			"text": "Contamos con técnicos especializados con los mas altos estándares en reparación y mantenimiento garantizándole la mejor atención posible, ven y visítanos.",
+			"btn": "Ver más aquí"
+		},
+		"footer": {
+			"title": "Contactanos",
+			"text": "Avenida Centro América 14-74 Zona 1 Centro Histórico.",
+			"phone_1": "5737 8088",
+			"phone_2": "2238 1745",
+			"rights": "Electrónica Internacional",
+			"rights_1": "Todos los derechos reservados 2020.",
+			"email": "administracion@electronicaei.com"
 		},
 		"services": {
 			"title": "Nuestros servicios",

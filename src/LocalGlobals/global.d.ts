@@ -40,5 +40,16 @@ interface ILangPackage {
 	}
 	gallery: {
 		title: string
+		text: string
+		btn: string
+	}
+	footer: {
+		title: string
+		text: string
+		phone_1: string
+		phone_2: string
+		rights: string
+		rights_1: string
+		email: string
 	}
 }

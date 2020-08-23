@@ -28,7 +28,12 @@ const Green: React.FC<GreenProps> = (props: GreenProps) => {
 			<div className={Styles.text}>
 				<h1>{lang.green.title}</h1>
 				<p>{lang.green.text}</p>
-				<a href='#green' className='btn' title={lang.green.btn}>
+				<a
+					href='https://www.facebook.com/ElectronicaEi/'
+					target='_blank'
+					rel='noreferrer noopener'
+					className='btn'
+					title={lang.green.btn}>
 					<Feather />
 					{lang.green.btn}
 				</a>

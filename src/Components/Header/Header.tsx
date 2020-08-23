@@ -19,9 +19,11 @@ const Header: React.FC = () => {
 
 	return (
 		<div className={Styles.head}>
-			<video autoPlay muted loop className={Styles.videoBackground}>
-				<source src='/assets/background.mp4' />
-			</video>
+			{process.env.NODE_ENV === 'production' && (
+				<video autoPlay muted loop className={Styles.videoBackground}>
+					<source src='/assets/background.mp4' />
+				</video>
+			)}
 
 			<div className={Styles.container}>
 				<div className={Styles.content}>
