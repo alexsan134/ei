@@ -47,7 +47,12 @@ const Gallery: React.FC = () => {
 					{new Array(10).fill(0).map((_image, key: number) => (
 						<li key={key} onClick={setGalleryImage(key)}>
 							<label htmlFor='showViewer'>
-								<img src={require(`Assets/gallery/pic${key}.jpg`)} alt={`Gallery ${key}`} />
+								<img
+									width='200'
+									loading='lazy'
+									src={require(`Assets/gallery/pic${key}.jpg`)}
+									alt={`Gallery ${key}`}
+								/>
 							</label>
 						</li>
 					))}
