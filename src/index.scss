@@ -2,18 +2,21 @@
 	src: url('./Fonts/Roboto-Light.ttf');
 	font-family: 'Roboto';
 	font-weight: 300;
+	font-display: swap;
 }
 
 @font-face {
 	src: url('./Fonts/Roboto-Medium.ttf');
 	font-family: 'Roboto';
 	font-weight: 400;
+	font-display: swap;
 }
 
 @font-face {
 	src: url('./Fonts/Roboto-Bold.ttf');
 	font-family: 'Roboto';
 	font-weight: 500;
+	font-display: swap;
 }
 
 * {

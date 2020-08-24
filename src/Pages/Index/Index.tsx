@@ -1,12 +1,13 @@
 // REACT
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 
 // COMPONENTES
 import Header from 'Components/Header/Header'
 import About from 'Components/About/About'
 import Services from 'Components/Services/Services'
 import Gallery from 'Components/Gallery/Gallery'
-import Footer from 'Components/Footer/Footer'
+
+const Footer = lazy(() => import('Components/Footer/Footer'))
 
 const Index: React.FC = () => {
 	return (
@@ -15,7 +16,7 @@ const Index: React.FC = () => {
 			<About />
 			<Services />
 			<Gallery />
-			<Footer />
+			<Suspense fallback={<></>}>{Footer}</Suspense>
 		</>
 	)
 }
