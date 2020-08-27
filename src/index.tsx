@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { render } from 'react-dom'
+import { render, hydrate } from 'react-dom'
 
 // COMPONENTES
 import App from 'Components/App/App'
@@ -20,7 +20,8 @@ const app: JSX.Element = (
 )
 
 // RECARGAR
-render(app, root)
+if (root.hasChildNodes()) hydrate(app, root)
+else render(app, root)
 
 // REGISTRAR
 sw.register()

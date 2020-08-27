@@ -58,6 +58,7 @@ const Footer: React.FC = () => {
 						title='Mapa'
 						width='100%'
 						height='400'
+						loading='lazy'
 						src='https://maps.google.com/maps?q=Electronica%20internacional%20$&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
 						frameBorder='0'
 						scrolling='yes'
