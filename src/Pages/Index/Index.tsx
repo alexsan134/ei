@@ -16,7 +16,7 @@ const Index: React.FC = () => {
 			<About />
 			<Services />
 			<Gallery />
-			<Suspense fallback={<></>}>{Footer}</Suspense>
+			<Suspense fallback={<></>}><Footer /></Suspense>
 		</>
 	)
 }
