@@ -37,7 +37,6 @@
 		]
 	},
 	"devDependencies": {
-		"@arcadian-digital/react-snap": "^1.23.2",
 		"node-sass": "^4.14.1",
 		"prettier": "1.19.1",
 		"tslint": "^6.1.3",
